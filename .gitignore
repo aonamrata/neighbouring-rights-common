@@ -36,11 +36,11 @@ bower_components
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/
+dist/
 
 # Dependency directories
 node_modules/
 jspm_packages/
-dist/
 package-lock.json
 
 # TypeScript v1 declaration files

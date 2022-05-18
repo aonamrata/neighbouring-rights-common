@@ -2,11 +2,19 @@
   "name": "neighbouring-rights-common",
   "version": "1.0.0",
   "description": "Common modules used by neighbouring-rights lambda",
-  "type":"module",
+  "main": "dist/cjs/lib/index.js",
+  "module": "dist/esm/lib/index.js",
+  "types": "dist/esm/lib/index.d.ts",
   "scripts": {
+    "build:cjs": "tsc --build ./tsconfig.cjs.json",
+    "build:esm": "tsc --build ./tsconfig.esm.json",
+    "build": "yarn build:esm && yarn build:cjs",
     "test:unit": "jest lib/",
-    "build": "tsc --build"
+    "lint": "eslint --ext .ts,.tsx src"    
   },
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aonamrata/neighbouring-rights-common.git"

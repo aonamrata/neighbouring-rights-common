@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "outDir": "build",
+        "outDir": "dist",
         "baseUrl": ".",
         "module": "commonjs",
         "strict": true,
@@ -26,6 +26,8 @@
         "lib/**/*",
     ],
     "exclude": [
-        "node_modules"
+        "node_modules",
+        "dist",
+        "build"
     ]
 }

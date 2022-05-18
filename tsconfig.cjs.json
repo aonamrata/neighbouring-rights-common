@@ -1,0 +1,16 @@
+{
+    "extends": "./tsconfig.esm.json",
+    "compilerOptions": {
+      "module": "CommonJS",
+      "baseUrl": ".",
+      "noEmitOnError": true,
+      "outDir": "./dist/cjs"
+    },
+    "include": [
+        "./lib"
+    ],
+    "exclude": [
+        "./lib/**/__tests__/*",
+        "node_modules"
+    ]
+}
