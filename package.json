@@ -2,7 +2,7 @@
   "name": "neighbouring-rights-common",
   "version": "1.0.0",
   "description": "Common modules used by neighbouring-rights lambda",
-  "main": "index.js",
+  "type":"module",
   "scripts": {
     "test:unit": "jest lib/",
     "build": "tsc --build"
