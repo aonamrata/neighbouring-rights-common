@@ -5,6 +5,7 @@
   "main": "dist/cjs/lib/index.js",
   "module": "dist/esm/lib/index.js",
   "types": "dist/esm/lib/index.d.ts",
+  "type": "module",
   "scripts": {
     "build:cjs": "tsc --build ./tsconfig.cjs.json",
     "build:esm": "tsc --build ./tsconfig.esm.json",
