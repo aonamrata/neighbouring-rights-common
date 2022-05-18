@@ -1,0 +1,23 @@
+{
+  "name": "neighbouring-rights-common",
+  "version": "1.0.0",
+  "description": "Common modules used by neighbouring-rights lambda",
+  "main": "index.js",
+  "scripts": {
+    "test:unit": "jest lib/",
+    "build": "tsc --build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aonamrata/neighbouring-rights-common.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aonamrata/neighbouring-rights-common/issues"
+  },
+  "homepage": "https://github.com/aonamrata/neighbouring-rights-common#readme",
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  }
+}

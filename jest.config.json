@@ -1,0 +1,15 @@
+{
+    "moduleNameMapper": {
+        "^src/(.*)$": "<rootDir>/src/$1",
+        "^lib/(.*)$": "<rootDir>/lib/$1",
+        "^tests/(.*)$": "<rootDir>/tests/$1"
+    },
+    "moduleFileExtensions": [
+        "ts",
+        "js",
+        "gql"
+    ],
+    "transform": {
+        "^.+\\.ts$": "ts-jest"
+    }
+}
